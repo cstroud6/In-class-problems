@@ -39,8 +39,13 @@ namespace GotJSON
                 var response = client.GetAsync(@"https://got-quotes.herokuapp.com/quotes").Result;
                 if (response.IsSuccessStatusCode)
                 {
-                    var content = response.Content.ReadAsStringAsync().Result;
-                    HerokuQuote q = JsonConvert.DeserializeObject<HerokuQuote>(content);
+                    var quot = response.Content.ReadAsStringAsync().Result;
+                    HerokuQuote q = JsonConvert.DeserializeObject<HerokuQuote>(quot);
+
+                    quote.Inlines.Add(new Italic(new Run(q.quote)));
+                    quote.Inlines.Add(new Bold(new Italic(new Run(q.quote))));
+                    //need to change font color to white
+                    //need to add character name bolded
 
 
                 }

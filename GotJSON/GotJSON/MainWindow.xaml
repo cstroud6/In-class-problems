@@ -6,10 +6,19 @@
         xmlns:local="clr-namespace:GotJSON"
         mc:Ignorable="d"
         Title="GOT Quotes?" Height="450" Width="800" Loaded="Window_Loaded">
-    <TextBlock x:Name="quote" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="TextBlock"/></TextBlock>
-    
+    <Grid x:Name="GOTimage">
 
+        <TextBlock x:Name="quote" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="400,290,0,0" Height="104" Width="346"><Run Text="TextBlock"/></TextBlock>
+                       
+        
+        
+        
+        
+        <Grid.Background>
+            <ImageBrush ImageSource ="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201708/viserion_559_082917044804.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
 
+    </Grid>
 
 
 
