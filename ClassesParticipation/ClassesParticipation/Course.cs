@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Chrissy Stroud
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,12 +17,15 @@ namespace ClassesParticipation
 
         public Course()
         {
-
+            Course myCNum = new Course();
+            Course myCName = new Course();
+            Course mySubj = new Course();
+            Course myInstr = new Course();
         }
 
         public ToString()
         {
-            string;
+            return;
         }
     }
 }

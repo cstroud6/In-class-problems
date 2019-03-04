@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Chrissy Stroud
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +18,10 @@ namespace ClassesParticipation
         public Student()
         {
             //fill out normal default values
+            Student fname = new Student();
+            Student lname = new Student();
+            Student SID = new Student();
+
             Courses = new List<Course>(); //Create our new list
         }
 
