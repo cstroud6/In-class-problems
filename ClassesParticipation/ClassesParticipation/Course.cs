@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 namespace ClassesParticipation
 {
     class Course
+
     {
+        public int CourseID { get; set; }
         public int CourseNumber { get; set; }
         public string CourseName { get; set; }
         public string Subject { get; set; }
@@ -23,7 +25,7 @@ namespace ClassesParticipation
             Course myInstr = new Course();
         }
 
-        public ToString()
+        public string ToString()
         {
             return;
         }

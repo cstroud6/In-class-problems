@@ -17,13 +17,14 @@ namespace ClassesParticipation
 
         public Student()
         {
-            //fill out normal default values
-            Student fname = new Student();
-            Student lname = new Student();
-            Student SID = new Student();
+            //fill out default values
+            FirstName = string.Empty;
+            LastName = string.Empty;
+            StudentID = 0;
 
             Courses = new List<Course>(); //Create our new list
         }
+        public void
 
             
     }
