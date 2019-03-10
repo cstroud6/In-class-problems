@@ -19,15 +19,16 @@ namespace ClassesParticipation
 
         public Course()
         {
-            Course myCNum = new Course();
-            Course myCName = new Course();
-            Course mySubj = new Course();
-            Course myInstr = new Course();
+            CourseID = 0;
+            CourseNumber = 0;
+            CourseName = "";
+            Subject = "";
+            Instructor = "";
         }
 
         public string ToString()
         {
-            return;
+            return "";
         }
     }
 }

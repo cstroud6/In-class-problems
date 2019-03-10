@@ -24,7 +24,10 @@ namespace ClassesParticipation
 
             Courses = new List<Course>(); //Create our new list
         }
-        public void
+        public void AddCourse(course, Course)
+        {
+            course = Course;
+        }
 
             
     }
